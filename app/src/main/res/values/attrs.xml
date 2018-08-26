@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleBarView">
+        <attr name="otherMessageImageResource" format="reference|integer"/>
+        <attr name="searchImageResource" format="reference|integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="PageSwitchingBarView">
+        <attr name="songListImageResource" format="reference|integer"/>
+        <attr name="exclusiveImageResource" format="reference|integer"/>
+        <attr name="exploreImageResource" format="reference|integer"/>
+        <attr name="moreImageResource" format="reference|integer"/>
+    </declare-styleable>
+</resources>

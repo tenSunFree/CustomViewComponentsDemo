@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/songListImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/song_list"/>
+
+            <View
+                android:id="@+id/songListTopView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#70111111"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/exclusiveImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/exclusive"/>
+
+            <View
+                android:id="@+id/exclusiveTopView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#70111111"
+                android:visibility="visible"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/exploreImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/explore"/>
+
+            <View
+                android:id="@+id/exploreTopView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#70111111"
+                android:visibility="visible"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/moreImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/more"/>
+
+            <View
+                android:id="@+id/moreTopView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#70111111"
+                android:visibility="visible"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
